@@ -17,7 +17,14 @@
             </div>           
             <div id="content">
                 <h1>{pagetitle}</h1>
-                {content}
+                <div class="row">
+                <div class="span6">
+                      {leftside}
+                </div>
+                <div class="span6">
+                      {rightside}
+                </div>
+                </div>
             </div>
             <div id="footer" class="span12">
                 Copyright &copy; 2017,  <a href="mailto:someone@somewhere.com">Me</a>.
